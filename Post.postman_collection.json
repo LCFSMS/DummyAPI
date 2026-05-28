@@ -1,0 +1,1028 @@
+{
+  "info": {
+    "_postman_id": "9f9b54eb-60e3-4764-aa35-cf32b3da3c92",
+    "name": "Post",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "24871158",
+    "_collection_link": "https://go.postman.co/collection/24871158-9f9b54eb-60e3-4764-aa35-cf32b3da3c92?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get List",
+      "item": [
+        {
+          "name": "GetPostList",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(POST)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(pge=0&limit=5)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?page=0&limit=5",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "0"
+                },
+                {
+                  "key": "limit",
+                  "value": "5"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(pge=1&limit=6)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?page=1&limit=6",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "limit",
+                  "value": "6"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(page=999&limit=50)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?page=999&limit=50",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "999"
+                },
+                {
+                  "key": "limit",
+                  "value": "50"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(limit=4)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?limit=4",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "limit",
+                  "value": "4"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(page=1000&limit=51)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?page=1000&limit=51",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1000"
+                },
+                {
+                  "key": "limit",
+                  "value": "51",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(page=j&limit=k)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?page=j&limit=k",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "j"
+                },
+                {
+                  "key": "limit",
+                  "value": "k"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(created=1)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?created=1",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "created",
+                  "value": "1",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(created=0)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?created=0",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "created",
+                  "value": "0"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetPostList(created=f)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{host}}/post?created=f",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post"
+              ],
+              "query": [
+                {
+                  "key": "created",
+                  "value": "f"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Create Post",
+      "item": [
+        {
+          "name": "Create Post",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"This string has exactly fifty one characters long\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=5)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"This3\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=6)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"Thisss\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=50)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"12345678901234567890123456789012345678901234567890\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=51)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"123456789012345678901234567890123456789012345678901\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=number)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": 99,\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=Array)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=Object)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": {\r\n                \"id\": \"6990a6dbea6226bbe2891297\",\r\n                \"title\": \"mr\",\r\n                \"firstName\": \"Jack\",\r\n                \"lastName\": \"Norton\",\r\n                \"picture\": \"https://avatars.mds.yandex.net/get-entity_search/2102351/1240434575/S600xU_2x\"\r\n            },\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(text=boolean)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": true,\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(image=number)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"treeee\",\r\n    \"image\": 22,\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(image=Array)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"rwerwer\",\r\n    \"image\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(image=Object)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": {\r\n                \"id\": \"6990a6dbea6226bbe2891297\",\r\n                \"title\": \"mr\",\r\n                \"firstName\": \"Jack\",\r\n                \"lastName\": \"Norton\",\r\n                \"picture\": \"https://avatars.mds.yandex.net/get-entity_search/2102351/1240434575/S600xU_2x\"\r\n            },\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(image=URL на  не изображение)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.tttt.com/ttt.txt\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(likes=1)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 1,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(likes=null)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": null,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(likes=\"sdsdsd\")",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": \"sdsdsd\",\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(tags=9)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": 9,\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(tags=Object)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": {\"age\": \"9\"},\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(tags=boolean)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": true,\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(tags=String)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": \"true\",\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(owner=number)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": 22\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(owner=Array)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ]\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(owner=Object)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": {\r\n           \"post\": \"post\",\r\n           \"text\": \"врвае\"\r\n    }\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(owner=boolean)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": true          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(owner=null)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"ewewe\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": null          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Post(GET)",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"text\": \"This string has exactly fifty one characters long\",\r\n    \"image\": \"http://www.photo.com/image.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n           \"post\",\r\n           \"врвае\"\r\n         ],\r\n    \"owner\": \"6990a6dbea6226bbe2891297\"\r\n          \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/post/create",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "post",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "value",
+        "value": "{{app-id}}",
+        "type": "string"
+      },
+      {
+        "key": "key",
+        "value": "app-id",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
