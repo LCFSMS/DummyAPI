@@ -78,4 +78,17 @@ owner: object(User Preview)
 ## Майнд-карта
 Данная МК представляет собой набор тестов для тестирования объекта **Post**. Подробная проверка расписана для **Get List** и **Create Post**.
 <img width="1161" height="2635" alt="dummyapi io" src="https://github.com/user-attachments/assets/76d41e03-bf39-4336-89bb-c65dd752f306" />
-Также майн-карту можно [Скачать]
+
+Также майн-карту можно [Скачать](dummyapi.io.xmind)
+
+## Коллекции POSTMAN
+
+Данная коллекция содержит тесты для объекта **Post** [Post.postman_collection.json](https://github.com/LCFSMS/DummyAPI/blob/main/Post.postman_collection.json)
+
+Окружение для коллекции **Post.postman_collection.json** [DummyAPI.postman_environment.json](https://github.com/LCFSMS/DummyAPI/blob/main/DummyAPI.postman_environment.json)
+
+## Автотесты
+
+Составлены для тестирования методов GET, POST, PUT, DELETE.
+Автотесты для объекта **Post** составленные с помощью Postman [autotests.postman_collection.json](https://github.com/LCFSMS/DummyAPI/blob/main/Working%20with%20autotests.postman_collection.json)
+
